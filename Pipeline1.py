@@ -1,5 +1,3 @@
-import requests
-
 def azure_devops_pipeline():
     #Azure DevOps REST API URL
     url = f"https://dev.azure.com/{ORG_NAME}/{PROJECT_NAME}/_apis/pipelines?api-version=7.1-preview.2"
